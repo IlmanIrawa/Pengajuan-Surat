@@ -54,7 +54,7 @@
 										<div class="row">
 										<div class="col-md-6 col-lg-6">
 													<div class="form-group">
-														<label>NIK</label>
+														<label>NIM</label>
 														<input type="number" name="nik" value="<?php echo $nik;?>" class="form-control" placeholder="NIK Anda.." autofocus readonly>
 													</div>
 													<div class="form-group">
@@ -97,11 +97,11 @@
 														<textarea class="form-control" name="alamat" rows="5"> <?php echo $alamat;?></textarea>
 													</div>	
 													<div class="form-group">
-														<label>Status Warga</label>
+														<label>Status Mahasiswa</label>
 														<select name="status_warga" value="<?php echo $status_warga;?>" class="form-control">
-															<option value="Sekolah" <?php if($status_warga=="Sekolah") echo 'selected'?>>Sekolah</option>
-															<option value="Kerja" <?php if($status_warga=="Kerja") echo 'selected'?>>Kerja</option>
-															<option value="Bekerja" <?php if($status_warga=="Bekerja") echo 'selected'?>>Bekerja</option>
+															<option value="Reguler Pagi" <?php if($status_warga=="Sekolah") echo 'selected'?>>Reguler Pagi</option>
+															<option value="Reguler Sore" <?php if($status_warga=="Kerja") echo 'selected'?>>Reguler Sore</option>
+															<option value="Eksekutif" <?php if($status_warga=="Bekerja") echo 'selected'?>>Eksekutif</option>
 														</select>
 													</div>			
 													<div class="form-group">
@@ -119,7 +119,7 @@
 							<div class="col-md-5">
 								<div class="card">
 									<div class="card-header">
-										<h4 class="card-title">KTP</h4>
+										<h4 class="card-title">KTM</h4>
 									</div>
 									<div class="card-body">
 										<div class="row justify-content-md-center">
@@ -130,7 +130,7 @@
 								</div>
 								<div class="card">
 									<div class="card-header">
-										<h4 class="card-title">KK</h4>
+										<h4 class="card-title">KTP</h4>
 									</div>
 									<div class="card-body">
 										<div class="row justify-content-md-center">

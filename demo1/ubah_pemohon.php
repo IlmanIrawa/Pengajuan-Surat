@@ -33,7 +33,7 @@
 									<div class="row">
 											<div class="col-md-6 col-lg-6">
 												<div class="form-group">
-													<label>NIK</label>
+													<label>NIM</label>
 													<input type="number" name="nik" class="form-control" placeholder="NIK Anda.." value="<?= $nik;?>" readonly>
 												</div>
 												<div class="form-group">
@@ -81,12 +81,12 @@
 													<input type="number" name="telepon" class="form-control" value="<?= $telepon?>" placeholder="Telepon Anda..">
 												</div>
 												<div class="form-group">
-													<label>Status Warga</label>
+													<label>Status Mahasiswa</label>
 													<select name="status_warga" class="form-control">
-														<option disabled="" selected="">Pilih Status Warga</option>
-														<option value='Sekolah'>Sekolah</option>
-														<option value='Kerja'>Kerja</option>
-														<option value='Belum Bekerja'>Belum Bekerja</option>
+														<option disabled="" selected="">Pilih Status Mahasiswa</option>
+														<option value='Reguler Pagi'>REG PAGI</option>
+														<option value='Reguler Sore'>REG SORE</option>
+														<option value='Eksekutif'>EKSEKUTIF</option>
 													</select>
 												</div>
 											</div>

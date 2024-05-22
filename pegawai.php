@@ -35,7 +35,7 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
-                <img src="main/img/logo4.png" width="150" height="54" alt="logo">
+                <img src="main/img/logo7.png" width="150" height="54" alt="logo">
               </div>
               <h4>LOGIN PEGAWAI</h4>
               <form method="POST" class="pt-3">
@@ -43,7 +43,7 @@
                   <select name="hak_akses" id="" class="form-control text-uppercase">
                     <option value="" selected="selected">Login sebagai</option>
                     <?php
-                        $SQL = "SELECT * FROM data_user WHERE hak_akses='Staf' or hak_akses='Lurah'";
+                        $SQL = "SELECT * FROM data_user WHERE hak_akses='Staf' or hak_akses='Akademik'";
                         $QUERY = mysqli_query($konek,$SQL);
                         while($data=mysqli_fetch_array($QUERY,MYSQLI_BOTH)){
                           $hak_akses = $data['hak_akses'];
@@ -68,7 +68,7 @@
                   
                 </div>
                 <div class="mb-2">
-                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/surat-keterangan-desa/">BATAL</a>
+                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/pengajuan-surat-online/">BATAL</a>
                 </div>
                 <!-- <div class="text-center mt-4 font-weight-light">
                   Belum memiliki akun? <a href="beranda.php" class="text-primary">Buat</a>

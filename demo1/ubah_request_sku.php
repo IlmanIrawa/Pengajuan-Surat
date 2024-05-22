@@ -23,18 +23,18 @@ if(isset($_GET['id_request_sku'])){
 						<form method="POST" enctype="multipart/form-data">
 							<div class="card">
 								<div class="card-header">
-									<div class="card-title">UBAH DATA REQUEST SURAT KETERANGAN USAHA</div>
+									<div class="card-title">UBAH DATA REQUEST SURAT KETERANGAN REKOMENDASI</div>
 								</div>
 								<div class="card-body">
 									<div class="row">
 											<div class="col-md-6 col-lg-6">
                                                 <div class="form-group">
-													<label>NIK</label>
+													<label>NIM</label>
 													<input type="text" name="nik" class="form-control" value="<?= $nik.' - '.$nama;?>" readonly>
 												</div>
 												<div class="form-group">
-													<label>Usaha</label>
-													<input type="text" name="usaha" class="form-control" value="<?= $usaha;?>" placeholder="Usaha Anda.." autofocus>
+													<label>Semester</label>
+													<input type="text" name="usaha" class="form-control" value="<?= $usaha;?>" placeholder="Semester Saat ini.." autofocus>
 												</div>
 												<div class="form-group">
 													<label>Keperluan</label>
@@ -43,18 +43,18 @@ if(isset($_GET['id_request_sku'])){
 											</div>
 											<div class="col-md-6 col-lg-6">	
                                                 <div class="form-group">
-													<label>Scan KTP</label><br>
+													<label>Scan KTM</label><br>
                                                     <img src="../dataFoto/scan_ktp/<?= $ktp;?>" width="200" height="100" alt="">
 												</div>	
 												<div class="form-group">
 													<input type="file" name="ktp" class="form-control" size="37">
 												</div>
                                                 <div class="form-group">
-													<label>Scan KTP</label><br>
+													<label>Scan KTM</label><br>
                                                     <img src="../dataFoto/scan_kk/<?= $kk;?>" width="200" height="100" alt="">
 												</div>	
 												<div class="form-group">
-													<label>Scan KK</label>
+													<label>Scan KTP</label>
 													<input type="file" name="kk" class="form-control" size="37">
 												</div>
 											</div>

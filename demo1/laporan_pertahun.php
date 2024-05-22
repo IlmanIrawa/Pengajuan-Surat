@@ -121,16 +121,16 @@ date_default_timezone_set('Asia/Jakarta');
                                             <div class="form-group">
                                                 <select name="tahun" class="form-control">
 													<option value="">Pilih</option>
-                                                    <option value="2012">2012</option>
-                                                    <option value="2013">2013</option>
-                                                    <option value="2014">2014</option>
-                                                    <option value="2015">2015</option>
-                                                    <option value="2016">2016</option>
-                                                    <option value="2017">2017</option>
-                                                    <option value="2018">2018</option>
-                                                    <option value="2019">2019</option>
-                                                    <option value="2020">2020</option>
-													<option value="2021">2021</option>
+                                                    <option value="2012">2016</option>
+                                                    <option value="2013">2017</option>
+                                                    <option value="2014">2018</option>
+                                                    <option value="2015">2019</option>
+                                                    <option value="2016">2020</option>
+                                                    <option value="2017">2021</option>
+                                                    <option value="2018">2022</option>
+                                                    <option value="2019">2023</option>
+                                                    <option value="2020">2024</option>
+													<option value="2021">2025</option>
 												</select>
                                                 <div class="form-group">
                                                     <input type="submit" name="tampilkan" value="Tampilkan" class="btn btn-primary btn-sm">
@@ -165,7 +165,7 @@ date_default_timezone_set('Asia/Jakarta');
 												<th scope="col">No</th>
 												<th scope="col">Tanggal ACC</th>
 												<th scope="col">Nama</th>
-												<th scope="col">Nik</th>
+												<th scope="col">Nim</th>
 												<th scope="col">Keperluan</th>
 												<th scope="col">Request</th>
 											</tr>

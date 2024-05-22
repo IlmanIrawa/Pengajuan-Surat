@@ -9,7 +9,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Halaman Pendaftaran Pemohon</title>
+  <title>REGISTRASI | MAHASISWA </title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="main/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="main/vendors/base/vendor.bundle.base.css">
@@ -34,12 +34,12 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
-                <img src="main/img/logo4.png" width="150" height="54" alt="logo">
+                <img src="main/img/logo7.png" width="150" height="54" alt="logo">
               </div>
-              <h4>HALAMAN PENDAFTARAN</h4>
+              <h4>REGISTRASI</h4>
               <form method="POST" class="pt-3">
                 <div class="form-group">
-                  <input type="number" name="nik" class="form-control form-control-lg" placeholder="NIK Anda.." oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "16" required autofocus>
+                  <input type="number" name="nik" class="form-control form-control-lg" placeholder="NIM Anda.." oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "16" required autofocus>
                 </div>
                 <div class="form-group">
                   <input type="text" name="nama" class="form-control form-control-lg" placeholder="Nama Lengkap Anda.." required>
@@ -68,7 +68,7 @@
                   </button>
                 </div>
                 <div class="mt-3">
-                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/surat-keterangan-desa/">BATAL</a>
+                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/pengajuan-surat-online/">BATAL</a>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
                   Sudah memiliki akun? <a href="login.php" class="text-primary">Login</a>

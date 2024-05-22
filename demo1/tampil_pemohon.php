@@ -32,7 +32,7 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                                <th>NIK</th>
+                                <th>NIM</th>
                                 <td>:</td>
                                 <td><?= $nik;?></td>
                             </tr>
@@ -48,7 +48,7 @@
                             </tr>
 
                             <tr>
-                                <th>JEKEL</th>
+                                <th>JENIS KELAMIN</th>
                                 <td>:</td>
                                 <td><?= $jekel;?></td>
                             </tr>
@@ -68,7 +68,7 @@
                                 <td><?= $telepon;?></td>
                             </tr>
                             <tr>
-                                <th>STATUS WARGA</th>
+                                <th>STATUS MAHASISWA</th>
                                 <td>:</td>
                                 <td><?= $status_warga;?></td>
                             </tr>

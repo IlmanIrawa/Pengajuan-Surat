@@ -15,13 +15,13 @@
 						<form method="POST" enctype="multipart/form-data">
 							<div class="card">
 								<div class="card-header">
-									<div class="card-title">FORM TAMBAH REQUEST SKTM</div>
+									<div class="card-title">FORM TAMBAH REQUEST SURAT KETERANGAN MAHASISWA</div>
 								</div>
 								<div class="card-body">
 									<div class="row">
 											<div class="col-md-6 col-lg-6">
 											<div class="form-group">
-													<label>NIK</label>
+													<label>NIM</label>
 													<input type="text" name="keterangan" class="form-control" value="<?= $nik.' - '.$nama;?>" readonly>
 												</div>
 												<div class="form-group">
@@ -42,11 +42,11 @@
 											</div>
 											<div class="col-md-6 col-lg-6">		
 												<div class="form-group">
-													<label>Scan KTP</label>
+													<label>Scan KTM</label>
 													<input type="file" name="ktp" class="form-control" size="37" required>
 												</div>
 												<div class="form-group">
-													<label>Scan KK</label>
+													<label>Scan KTP</label>
 													<input type="file" name="kk" class="form-control" size="37" required>
 												</div>
 											</div>

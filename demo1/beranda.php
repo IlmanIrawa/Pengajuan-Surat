@@ -34,7 +34,7 @@
 						<div class="col-md-3 pr-md-0">
 								<div class="card-pricing2 card-primary">
 									<div class="pricing-header">
-										<h6 class="fw-bold text-center text-uppercase">Surat Keterangan Tidak Mampu</h6>
+										<h6 class="fw-bold text-center text-uppercase">Surat Keterangan Mahasiswa</h6>
 									</div>
 									<div class="price-value">
 										<div class="value">
@@ -54,7 +54,7 @@
 						<div class="col-md-3 pr-md-0">
 								<div class="card-pricing2 card-success">
 									<div class="pricing-header">
-										<h6 class="fw-bold text-center text-uppercase">Surat Keterangan Usaha</h6>
+										<h6 class="fw-bold text-center text-uppercase">Surat Rekomendasi</h6>
 									</div>
 									<div class="price-value">
 										<div class="value">
@@ -72,7 +72,7 @@
 						<div class="col-md-3 pr-md-0">
 								<div class="card-pricing2 card-warning">
 									<div class="pricing-header">
-										<h6 class="fw-bold text-center text-uppercase">Surat Keterangan Pamit</h6>
+										<h6 class="fw-bold text-center text-uppercase">Surat Keterangan Daftar Nilai</h6>
 									</div>
 									<div class="price-value">
 										<div class="value">
@@ -90,7 +90,7 @@
 						<div class="col-md-3 pr-md-0">
 								<div class="card-pricing2 card-secondary">
 									<div class="pricing-header">
-										<h6 class="fw-bold text-center text-uppercase">Surat Keterangan Domisili</h6>
+										<h6 class="fw-bold text-center text-uppercase">Surat Keterangan Wisuda</h6>
 									</div>
 									<div class="price-value">
 										<div class="value">
@@ -137,7 +137,7 @@
 											</a>
 											<div class="col col-stats ml-3 ml-sm-0">
 												<div class="numbers">
-													<p class="card-category">SKTM</p>
+													<p class="card-category">Surat Keterangan Mahasiswa</p>
 													<?php
 													$sql = "SELECT * FROM data_request_sktm WHERE status=1";
 													$query = mysqli_query($konek,$sql);
@@ -171,7 +171,7 @@
 										</a>
 										<div class="col col-stats ml-3 ml-sm-0">
 											<div class="numbers">
-												<p class="card-category">SKU</p>
+												<p class="card-category">Surat Rekomendasi</p>
 												<?php
 													$sql = "SELECT * FROM data_request_sku WHERE status=1";
 													$query = mysqli_query($konek,$sql);
@@ -205,7 +205,7 @@
 										</a>
 										<div class="col col-stats ml-3 ml-sm-0">
 											<div class="numbers">
-												<p class="card-category">SKP</p>
+												<p class="card-category">Daftar Nilai</p>
 												<?php
 													$sql = "SELECT * FROM data_request_skp WHERE status=1";
 													$query = mysqli_query($konek,$sql);
@@ -239,7 +239,7 @@
 										</a>
 										<div class="col col-stats ml-3 ml-sm-0">
 											<div class="numbers">
-												<p class="card-category">SKD</p>
+												<p class="card-category">Keterangan Wisuda</p>
 												<?php
 													$sql = "SELECT * FROM data_request_skd WHERE status=1";
 													$query = mysqli_query($konek,$sql);
@@ -263,7 +263,7 @@
 					</div>
 				</div>
 <?php
-    }elseif($hak_akses=="Lurah"){
+    }elseif($hak_akses=="Akademik"){
  ?>
 				<div class="panel-header bg-primary-gradient">
 					<div class="page-inner py-5">
@@ -292,7 +292,7 @@
 											</a>
 											<div class="col col-stats ml-3 ml-sm-0">
 												<div class="numbers">
-													<p class="card-category">SKTM</p>
+													<p class="card-category">Surat Keterangan Mahasiswa</p>
 													<?php
 													$sql = "SELECT * FROM data_request_sktm WHERE status=0";
 													$query = mysqli_query($konek,$sql);
@@ -394,7 +394,7 @@
 										</a>
 										<div class="col col-stats ml-3 ml-sm-0">
 											<div class="numbers">
-												<p class="card-category">SKD</p>
+												<p class="card-category">Keterangan Wisuda</p>
 												<?php
 													$sql = "SELECT * FROM data_request_skd WHERE status=0";
 													$query = mysqli_query($konek,$sql);

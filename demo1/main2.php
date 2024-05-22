@@ -46,7 +46,7 @@
 							</a>
 						</li>
 						<?php
-							 }elseif($hak_akses=="Lurah"){
+							 }elseif($hak_akses=="Akademik"){
 						?>
 						<li class="nav-item">
 							<a data-toggle="collapse" href="#tables">

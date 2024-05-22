@@ -63,10 +63,10 @@
                                             $tgl = $_POST['tgl_acc'];
                                             $update = mysqli_query($konek,"UPDATE data_request_sku SET acc='$tgl', status=2, keterangan='$ket' WHERE id_request_sku=$id");
                                             if($update){
-                                                echo "<script language='javascript'>swal('Selamat...', 'ACC Lurah Berhasil', 'success');</script>" ;
+                                                echo "<script language='javascript'>swal('Selamat...', 'ACC Akademik Berhasil', 'success');</script>" ;
                                                 echo '<meta http-equiv="refresh" content="3; url=?halaman=belum_acc_sku">';
                                             }else{
-                                                echo "<script language='javascript'>swal('Gagal...', 'ACC Lurah Gagal', 'error');</script>" ;
+                                                echo "<script language='javascript'>swal('Gagal...', 'ACC Akademik Gagal', 'error');</script>" ;
                                                 echo '<meta http-equiv="refresh" content="3; url=?halaman=view_sku">';
                                             }
 
@@ -84,7 +84,7 @@
                                 <table border="1" align="center">
                                 <table border="0" align="center">
         <tr>
-        <td><img src="img/kudus.png" width="70" height="87" alt=""></td>
+        <td><img src="img/logo6.png" width="70" height="87" alt=""></td>
         <td></td>
         <td></td>
         <td></td>
@@ -106,10 +106,10 @@
         <td></td>
             <td>
                 <center>
-                    <font size="4">PEMERINTAHAN KABUPATEN KUDUS</font><br>
-                    <font size="4">KECAMATAN KOTA KUDUS</font><br>
-                    <font size="5"><b>KELURAHAN WERGU WETAN</b></font><br>
-                    <font size="2"><i>JL. Loram No.9 Kudus 59318</i></font><br>
+                    <font size="4">STMIK BANDUNG</font><br>
+                    <font size="4">KECAMATAN CIBEUNYING IDUL</font><br>
+                    <font size="5"><b>KELURAHAN CIKUTRA</b></font><br>
+                    <font size="2"><i>JL. Cikutra No. 113 Bandung</i></font><br>
                 </center>
             </td>
         <td></td>
@@ -154,7 +154,7 @@
     <table border="0" align="center">
         <tr>
             <td>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Lurah Wergu Wetan Kabupaten Kota <br> Kudus, Menerangkan bahwa :
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Akademik STMIK Bandung Kota <br> Bandung, Menerangkan bahwa :
             </td>
         </tr>
     </table>
@@ -181,12 +181,12 @@
             <td><?php echo $agama;?></td>
         </tr>
         <tr>
-            <td>Status Warga</td>
+            <td>Status Mahasiswa</td>
             <td>:</td>
             <td><?php echo $status_warga;?></td>
         </tr>
         <tr>
-            <td>No. NIK</td>
+            <td>No. NIM</td>
             <td>:</td>
             <td><?php echo $nik;?></td>
         </tr>
@@ -196,7 +196,7 @@
             <td><?php echo $alamat;?></td>
         </tr>
         <tr>
-            <td>Usaha</td>
+            <td>Semester</td>
             <td>:</td>
             <td><?php echo $usaha;?></td>
         </tr>
@@ -209,8 +209,8 @@
             <td>Request</td>
             <td>:</td>
             <?php
-                if($request=="USAHA"){
-                    $request="Surat Keterangan Usaha";
+                if($request=="REKOMENDASI"){
+                    $request="Surat Keterangan Rekomendasi";
                 }
             ?>
             <td><?php echo $request;?></td>
@@ -230,12 +230,12 @@
         <tr>
             <th></th>
             <th width="100px"></th>
-            <th>Kudus, <?php echo $acc;?></th>
+            <th>Bandung, <?php echo $acc;?></th>
         </tr>
         <tr>
             <td>Tanda tangan <br> Yang bersangkutan </td>
             <td></td>
-            <td>Lurah Wergu Wetan</td>
+            <td>Akademik STMIK Badnung</td>
         </tr>
         <tr>
             <td rowspan="15"></td>
@@ -287,7 +287,7 @@
         <tr>
             <td><b style="text-transform:uppercase"><u>(<?php echo $nama;?>)</u></b></td>
             <td></td>
-            <td><b><u>(AGUS SUPRIYANTO)</u></b></td>
+            <td><b><u>(Ilman Irawan)</u></b></td>
         </tr>
     </table>
                                 

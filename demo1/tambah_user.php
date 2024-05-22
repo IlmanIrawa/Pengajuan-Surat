@@ -42,12 +42,12 @@
 													<textarea name="alamat" class="form-control" cols="30" rows="10" placeholder="Alamat.."></textarea>
 												</div>
 												<div class="form-group">
-													<label>Status Warga</label>
+													<label>Status Mahasiswa</label>
 													<select name="status_warga" class="form-control">
-														<option disabled="" selected="">Pilih Status Warga</option>
-														<option value="Sekolah">Sekolah</option>
-														<option value="Kerja">Kerja</option>
-														<option value="Belum Bekerja">Belum Bekerja</option>
+														<option disabled="" selected="">Pilih Status Mahasiswa</option>
+														<option value="Reguler Pagi">REG> PAGI</option>
+														<option value="Reguler Sore">REG SORE</option>
+														<option value="Eksekutif">EKSEKUTIF</option>
 													</select>
 												</div>
 												<div class="form-group">
@@ -59,7 +59,7 @@
 													<select name="hak_akses" class="form-control">
 														<option disabled="" selected="">Pilih Hak Akses</option>
 														<option value="Pemohon">Pemohon</option>
-														<option value="Lurah">Lurah</option>
+														<option value="Akademik">Akademik</option>
 														<option value="Staf">Staf</option>
 													</select>
 												</div>

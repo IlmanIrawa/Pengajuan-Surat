@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Halaman Login Pemohon</title>
+  <title>Halaman Login Mahasiswa</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="main/vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="main/vendors/base/vendor.bundle.base.css">
@@ -28,13 +28,13 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
-                <img src="main/img/logo4.png" width="150" height="54" alt="logo">
+                <img src="main/img/logo7.png" width="150" height="54" alt="logo">
               </div>
-              <h4>LOGIN PEMOHON</h4>
+              <h4>LOGIN MAHASISWA</h4>
               <h6 class="font-weight-light"></h6>
               <form method="POST" class="pt-3">
                 <div class="form-group">
-                  <input type="text" name="nik" class="form-control form-control-xs text-bold" placeholder="NIK Anda.." oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "16" required autofocus>
+                  <input type="text" name="nik" class="form-control form-control-xs text-bold" placeholder="NIM Anda.." oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "16" required autofocus>
                 </div>
                 <div class="form-group">
                   <input type="password" name="password" class="form-control form-control-xs" placeholder="Password Anda.." required autofocus>
@@ -49,7 +49,7 @@
                   
                 </div>
                 <div class="mb-2">
-                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/surat-keterangan-desa/">BATAL</a>
+                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/pengajuan-surat-online/">BATAL</a>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
                   Belum memiliki akun? <a href="register.php" class="text-primary">Buat</a>

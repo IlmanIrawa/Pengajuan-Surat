@@ -154,7 +154,7 @@ if(isset($_POST['ubah'])){
 									<div class="row">
 											<div class="col-md-6 col-lg-6">
 												<div class="form-group">
-													<label>NIK</label>
+													<label>NIM</label>
 													<input type="number" name="nik" class="form-control" placeholder="NIK Anda.." value="<?= $nik;?>" readonly>
 												</div>
 												<div class="form-group">
@@ -182,12 +182,12 @@ if(isset($_POST['ubah'])){
 													<textarea class="form-control" name="alamat" rows="5"><?= $alamat?></textarea>
 												</div>
 												<div class="form-group">
-													<label>Status Warga</label>
+													<label>Status Mahasiswa</label>
 													<select name="status_warga" class="form-control">
-														<option disabled="" selected="">Pilih Status Warga</option>
-														<option value="Sekolah" <?php if($status_warga=="Sekolah") echo 'selected'?>>Sekolah</option>
-														<option value="Kerja" <?php if($status_warga=="Kerja") echo 'selected'?>>Kerja</option>
-														<option value="Belum Kerja" <?php if($status_warga=="Belum Kerja") echo 'selected'?>>Belum Kerja</option>
+														<option disabled="" selected="">Status Mahasiswa</option>
+														<option value="Sekolah" <?php if($status_warga=="Sekolah") echo 'selected'?>>REG PAGI</option>
+														<option value="Kerja" <?php if($status_warga=="Kerja") echo 'selected'?>>REG SORE</option>
+														<option value="Belum Kerja" <?php if($status_warga=="Belum Kerja") echo 'selected'?>>EKSEKUTIF</option>
 													</select>
 												</div>
 												<div class="form-group">
@@ -199,7 +199,7 @@ if(isset($_POST['ubah'])){
 													<select name="hak_akses" class="form-control">
 														<option disbaled="" selected="">Pilih Hak Akses</option>
 														<option value="Pemohon" <?php if($hak_akses=="Pemohon") echo 'selected'?>>Pemohon</option>
-														<option value="Lurah" <?php if($hak_akses=="Lurah") echo 'selected'?>>Lurah</option>
+														<option value="Akademik" <?php if($hak_akses=="Akademik") echo 'selected'?>>Akademik</option>
 														<option value="Staf" <?php if($hak_akses=="Staf") echo 'selected'?>>Staf</option>
 													</select>
 												</div>

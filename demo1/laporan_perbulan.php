@@ -164,7 +164,7 @@ date_default_timezone_set('Asia/Jakarta');
 											<tr>
                                                 <th scope="col">No</th>
                                                 <th scope="col">Tanggal ACC</th>
-                                                <th scope="col">Nik</th>
+                                                <th scope="col">Nim</th>
 												<th scope="col">Nama</th>
 												<th scope="col">Keperluan</th>
 												<th scope="col">Request</th>

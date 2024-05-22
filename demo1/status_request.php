@@ -8,7 +8,7 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN TIDAK MAMPU</h4>
+										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN MAHASISWA</h4>
 									</div>
 								</div>
 								<div class="card-body">
@@ -17,10 +17,10 @@
 											<thead>
 												<tr>
                                                     <th>Tanggal Request</th>
-                                                    <th>NIK</th>
+                                                    <th>NIM</th>
                                                     <th>Nama Lengkap</th>
+													<th>Scan KTM</th>
 													<th>Scan KTP</th>
-													<th>Scan KK</th>
 													<th>Keperluan</th>
 													<th>Status</th>
 													<th>Keterangan</th>
@@ -48,7 +48,7 @@
                                                         }elseif($status=="0"){
                                                             $status = "<b style='color:red'>BELUM ACC staf</b>";
                                                         }elseif($status=="2"){
-															$status = "<b style='color:blue'>Sudah ACC Lurah</b>";
+															$status = "<b style='color:blue'>Sudah ACC AKADEMIK</b>";
 														}elseif($status=="3"){
 															$status = "<b style='color:green'>SURAT SUDAH DICETAK</b>";
 														}
@@ -91,7 +91,7 @@
 								<div class="card">
 									<div class="card-header">
 										<div class="d-flex align-items-center">
-											<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN USAHA</h4>
+											<h4 class="card-title">STATUS REQUEST SURAT REKOMENDASI</h4>
 										</div>
 									</div>
 									<div class="card-body">
@@ -100,11 +100,11 @@
 												<thead>
 													<tr>
 														<th>Tanggal Request</th>
-														<th>NIK</th>
+														<th>NIM</th>
 														<th>Nama Lengkap</th>
+														<th>Scan KTM</th>
 														<th>Scan KTP</th>
-														<th>Scan KK</th>
-														<th>Usaha</th>
+														<th>Semester</th>
 														<th>Keperluan</th>
 														<th>Status</th>
 														<th>Keterangan</th>
@@ -133,7 +133,7 @@
 															}elseif($status=="0"){
 																$status = "<b style='color:red'>BELUM ACC staf</b>";
 															}elseif($status=="2"){
-																$status = "<b style='color:blue'>Sudah ACC Lurah</b>";
+																$status = "<b style='color:blue'>Sudah ACC Akademik</b>";
 															}elseif($status=="3"){
 																$status = "<b style='color:green'>SURAT SUDAH DICETAK</b>";
 															}
@@ -178,7 +178,7 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN LAINNYA</h4>
+										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN DAFTAR NILAI</h4>
 									</div>
 								</div>
 								<div class="card-body">
@@ -187,10 +187,10 @@
 											<thead>
 												<tr>
                                                     <th>Tanggal Request</th>
-                                                    <th>NIK</th>
+                                                    <th>NIM</th>
                                                     <th>Nama Lengkap</th>
+													<th>Scan KTM</th>
 													<th>Scan KTP</th>
-													<th>Scan KK</th>
 													<th>Keperluan</th>
 													<th>Status</th>
 													<th>Keterangan</th>
@@ -219,7 +219,7 @@
                                                         }elseif($status=="0"){
                                                             $status = "<b style='color:red'>BELUM ACC staf</b>";
                                                         }elseif($status=="2"){
-															$status = "<b style='color:blue'>Sudah ACC Lurah</b>";
+															$status = "<b style='color:blue'>Sudah ACC AKADEMIK</b>";
 														}elseif($status=="3"){
 															$status = "<b style='color:green'>SURAT SUDAH DICETAK</b>";
 														}
@@ -263,7 +263,7 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN DOMISILI</h4>
+										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN WISUDA</h4>
 									</div>
 								</div>
 								<div class="card-body">
@@ -272,10 +272,10 @@
 											<thead>
 												<tr>
                                                     <th>Tanggal Request</th>
-                                                    <th>NIK</th>
+                                                    <th>NIM</th>
                                                     <th>Nama Lengkap</th>
+													<th>Scan KTM</th>
 													<th>Scan KTP</th>
-													<th>Scan KK</th>
 													<th>Status</th>
 													<th>Keperluan</th>
 													<th>Keterangan</th>
@@ -303,7 +303,7 @@
                                                         }elseif($status=="0"){
                                                             $status = "<b style='color:red'>BELUM ACC staf</b>";
                                                         }elseif($status=="2"){
-															$status = "<b style='color:blue'>Sudah ACC Lurah</b>";
+															$status = "<b style='color:blue'>Sudah ACC AKADEMIK</b>";
 														}elseif($status=="3"){
 															$status = "<b style='color:green'>SURAT SUDAH DICETAK</b>";
 														}

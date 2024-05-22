@@ -70,11 +70,11 @@
                                                     <thead>
                                                         <tr>
                                                             <th>No.</th>
-                                                            <th>NIK / Nama</th>
+                                                            <th>NIM / Nama</th>
                                                             <th>TTL</th>
                                                             <th>Alamat</th>
                                                             <th>Jenis Kelamin</th>
-                                                            <th>Status Warga</th>
+                                                            <th>Status Mahasiswa</th>
                                                             <th>Password</th>
                                                             <th>Hak Akses</th>
                                                             <th style="width: 10%">Action</th>

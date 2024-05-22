@@ -8,7 +8,7 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN TIDAK MAMPU</h4>
+										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN MAHASISWA</h4>
 									</div>
 								</div>
 								<div class="card-body">
@@ -17,10 +17,10 @@
 											<thead>
 												<tr>
                                                     <th>Tanggal Request</th>
-                                                    <th>NIK</th>
+                                                    <th>NIM</th>
                                                     <th>Nama Lengkap</th>
+													<th>Scan KTM</th>
 													<th>Scan KTP</th>
-													<th>Scan KK</th>
 													<th>Keperluan</th>
 													<th style="width: 10%">Action</th>
 												</tr>
@@ -78,7 +78,7 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN USAHA</h4>
+										<h4 class="card-title">STATUS REQUEST SURAT REKOMENDASI</h4>
 									</div>
 								</div>
 								<div class="card-body">
@@ -87,10 +87,10 @@
 											<thead>
 												<tr>
                                                     <th>Tanggal Request</th>
-                                                    <th>NIK</th>
+                                                    <th>NIM</th>
                                                     <th>Nama Lengkap</th>
+													<th>Scan KTM</th>
 													<th>Scan KTP</th>
-													<th>Scan KK</th>
 													<th>Status</th>
 													<th style="width: 10%">Action</th>
 												</tr>
@@ -113,7 +113,7 @@
 														$id_request_sku = $data['id_request_sku'];
 
 														if($status=="2"){
-                                                            $status = "<b style='color:blue'>SUDAH ACC LURAH</b>";
+                                                            $status = "<b style='color:blue'>SUDAH ACC AKADEMIK</b>";
                                                         }elseif($status=="0"){
                                                             $status = "<b style='color:red'>BELUM ACC</b>";
                                                         }
@@ -151,7 +151,7 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN LAINNYA</h4>
+										<h4 class="card-title">STATUS REQUEST SURAT DAFTAR NILAI</h4>
 									</div>
 								</div>
 								<div class="card-body">
@@ -160,10 +160,10 @@
 											<thead>
 												<tr>
                                                     <th>Tanggal Request</th>
-                                                    <th>NIK</th>
+                                                    <th>NIM</th>
                                                     <th>Nama Lengkap</th>
+													<th>Scan KTM</th>
 													<th>Scan KTP</th>
-													<th>Scan KK</th>
 													<th>Keperluan</th>
 													<th>Status</th>
 													<th style="width: 10%">Action</th>
@@ -187,7 +187,7 @@
 														
 
 														if($status=="2"){
-                                                            $status = "<b style='color:blue'>SUDAH ACC LURAH</b>";
+                                                            $status = "<b style='color:blue'>SUDAH ACC Akademik</b>";
                                                         }elseif($status=="0"){
                                                             $status = "<b style='color:red'>BELUM ACC</b>";
                                                         }
@@ -224,7 +224,7 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN DOMISILI</h4>
+										<h4 class="card-title">STATUS REQUEST SURAT KETERANGAN WISUDA</h4>
 									</div>
 								</div>
 								<form method="POST">
@@ -234,10 +234,10 @@
 											<thead>
 												<tr>
                                                     <th>Tanggal Request</th>
-                                                    <th>NIK</th>
+                                                    <th>NIM</th>
                                                     <th>Nama Lengkap</th>
+													<th>Scan KTM</th>
 													<th>Scan KTP</th>
-													<th>Scan KK</th>
 													<th>Status</th>
 													<th style="width: 10%">Action</th>
 												</tr>
@@ -258,7 +258,7 @@
 														$id_request_skd=$data['id_request_skd'];
 
                                                         if($status=="2"){
-                                                            $status = "<b style='color:blue'>SUDAH ACC LURAH</b>";
+                                                            $status = "<b style='color:blue'>SUDAH ACC AKADEMIK</b>";
                                                         }elseif($status=="0"){
                                                             $status = "<b style='color:red'>BELUM ACC</b>";
                                                         }

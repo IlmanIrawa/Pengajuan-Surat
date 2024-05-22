@@ -48,7 +48,7 @@
 											<tr>
 												<th scope="col">No</th>
 												<th scope="col">Nama</th>
-												<th scope="col">Nik</th>
+												<th scope="col">Nim</th>
 												<th scope="col">Jenis Kelamin</th>
 												<th scope="col">Keperluan</th>
 											</tr>

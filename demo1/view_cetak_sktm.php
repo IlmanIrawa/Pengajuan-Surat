@@ -35,7 +35,7 @@
         }
 
         if($status==3){
-            $keterangan="Sudah ACC Lurah, surat sedang dalam proses cetak oleh staf";
+            $keterangan="Sudah ACC Akademik, surat sedang dalam proses cetak oleh staf";
         }
 	}
 ?>
@@ -100,7 +100,7 @@
                                 <table border="1" align="center">
                                     <table border="0" align="center">
                                         <tr>
-                                        <td><img src="img/kudus.png" width="70" height="87" alt=""></td>
+                                        <td><img src="img/logo6.png" width="70" height="87" alt=""></td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
@@ -122,10 +122,10 @@
                                         <td></td>
                                             <td>
                                                 <center>
-                                                    <font size="4">PEMERINTAHAN KABUPATEN KUDUS</font><br>
-                                                    <font size="4">KECAMATAN KOTA KUDUS</font><br>
-                                                    <font size="5"><b>KELURAHAN WERGU WETAN</b></font><br>
-                                                    <font size="2"><i>JL. Loram No.9 Kudus 59318</i></font><br>
+                                                    <font size="4">STMIK BANDUNG</font><br>
+                                                    <font size="4">KECAMATAN CIBEUNYING KIDUL</font><br>
+                                                    <font size="5"><b>KELURAHAN CIKUTRA</b></font><br>
+                                                    <font size="2"><i>JL. Cikutra No. 113 Bandung</i></font><br>
                                                 </center>
                                             </td>
                                         <td></td>
@@ -170,7 +170,7 @@
                                     <table border="0" align="center">
                                         <tr>
                                             <td>
-                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Lurah Wergu Wetan Kabupaten Kota <br> Kudus, Menerangkan bahwa :
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yang bertanda tangan di bawah ini Akademik STMIK Bandung Kota <br> Bandung, Menerangkan bahwa :
                                             </td>
                                         </tr>
                                     </table>
@@ -202,7 +202,7 @@
                                             <td><?php echo $status_warga;?></td>
                                         </tr>
                                         <tr>
-                                            <td>No. NIK</td>
+                                            <td>No. NIM</td>
                                             <td>:</td>
                                             <td><?php echo $nik;?></td>
                                         </tr>
@@ -221,8 +221,8 @@
                                             <td>:</td>
                                             <?php 
                                                 
-                                                if($request=="TIDAK MAMPU"){
-                                                    $request="Surat Keterangan Tidak Mampu";
+                                                if($request=="Keterangan Mahasiswa"){
+                                                    $request="Surat Keterangan Mahasiswa";
                                                 }
                                             
                                             ?>
@@ -243,12 +243,12 @@
                                         <tr>
                                             <th></th>
                                             <th width="100px"></th>
-                                            <th>Kudus, <?php echo $format4;?></th>
+                                            <th>Bandung, <?php echo $format4;?></th>
                                         </tr>
                                         <tr>
                                             <td>Tanda tangan <br> Yang bersangkutan </td>
                                             <td></td>
-                                            <td>Lurah Wergu Wetan</td>
+                                            <td>Akademik STMIK Bandung</td>
                                         </tr>
                                         <tr>
                                             <td rowspan="15"></td>
@@ -300,7 +300,7 @@
                                         <tr>
                                             <td><b style="text-transform:uppercase"><u>(<?php echo $nama;?>)</u></b></td>
                                             <td></td>
-                                            <td><b><u>(AGUS SUPRIYANTO)</u></b></td>
+                                            <td><b><u>(Ilham Aly A)</u></b></td>
                                         </tr>
                                     </table>
                                 </table>

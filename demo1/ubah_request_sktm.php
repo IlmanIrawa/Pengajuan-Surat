@@ -22,13 +22,13 @@ if(isset($_GET['id_request_sktm'])){
 						<form method="POST" enctype="multipart/form-data">
 							<div class="card">
 								<div class="card-header">
-									<div class="card-title">UBAH REQUEST SKTM</div>
+									<div class="card-title">UBAH REQUEST SURAT KETERANGAN MAHASISWA</div>
 								</div>
 								<div class="card-body">
 									<div class="row">
 											<div class="col-md-6 col-lg-6">
                                                 <div class="form-group">
-													<label>NIK</label>
+													<label>NIM</label>
 													<input type="text" name="nik" class="form-control" value="<?= $nik.' - '.$nama;?>" readonly>
 												</div>
 												<!-- <div class="form-group">
@@ -46,7 +46,7 @@ if(isset($_GET['id_request_sktm'])){
 											</div>
 											<div class="col-md-6 col-lg-6">	
                                                 <div class="form-group">
-													<label>Scan KTP</label><br>
+													<label>Scan KTM</label><br>
                                                     <img src="../dataFoto/scan_ktp/<?= $ktp;?>" width="200" height="100" alt="">
     
 												</div>	
@@ -54,7 +54,7 @@ if(isset($_GET['id_request_sktm'])){
 													<input type="file" name="ktp" class="form-control" size="37">
 												</div>
 												<div class="form-group">
-													<label>Scan KK</label><br>
+													<label>Scan KTP</label><br>
 													<img src="../dataFoto/scan_kk/<?= $kk;?>" width="200" height="100" alt="">
 												</div>
                                                 <div class="form-group">

@@ -17,7 +17,7 @@
 											<thead>
 												<tr>
                                                     <th>Tanggal Request</th>
-                                                    <th>NIK</th>
+                                                    <th>NIM</th>
                                                     <th>Nama Lengkap</th>
 													<th>Keperluan</th>
                                                     <th>Request</th>

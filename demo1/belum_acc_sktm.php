@@ -8,7 +8,7 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
-										<h4 class="fw-bold text-uppercase">belum acc request surat keterangan tidak mampu</h4>
+										<h4 class="fw-bold text-uppercase">belum acc request surat keterangan Mahasiswa</h4>
 									</div>
 								</div>
 								<div class="card-body">
@@ -18,11 +18,11 @@
 												<thead>
 													<tr>
 														<th>Tanggal Request</th>
-														<th>NIK</th>
+														<th>NIM</th>
 														<th>Nama Lengkap</th>
 														<th>Status</th>
+														<th>Scan KTM</th>
 														<th>Scan KTP</th>
-														<th>Scan KK</th>
 														<th>Keterangan</th>
 														<th style="width: 10%">Action</th>
 													</tr>
